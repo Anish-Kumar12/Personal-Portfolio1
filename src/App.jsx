@@ -3,6 +3,8 @@ import './App.css'
 import { SwitchContext } from './context/SwitchContext'
 import Header from './components/header/Header';
 import Nav from './components/navbar/navbar'
+import About from './components/about/About';
+
 
 function App() {
   const mystorage = window.localStorage
@@ -17,6 +19,7 @@ function App() {
       <div className={`main-content ${darkMode ? 'bg-dark' : 'bg-light'}`}>
         <Header/>
         <Nav/>
+        <About/>
       </div>
       </SwitchContext.Provider>
   )
