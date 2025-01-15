@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import './switch.css';
-import { SwitchContext } from '../../contexts/SwitchContext';
+import { SwitchContext } from '../../context/SwitchContext';
 import { Tooltip } from 'react-tooltip';
 
 function Switch() {
