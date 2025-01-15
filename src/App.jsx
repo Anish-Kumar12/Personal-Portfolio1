@@ -4,6 +4,8 @@ import { SwitchContext } from './context/SwitchContext'
 import Header from './components/header/Header';
 import Nav from './components/navbar/navbar'
 import About from './components/about/About';
+import Skill from './components/skills/Skill';
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <Header/>
         <Nav/>
         <About/>
+        <Skill/>
       </div>
       </SwitchContext.Provider>
   )
