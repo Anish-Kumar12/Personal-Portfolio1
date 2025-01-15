@@ -10,10 +10,7 @@ import Qualification from './components/qualifications/qualification';
 import Portfolio from './components/portfolio/Portfolio';
 import Quotes from './components/quotes/Quotes';
 import Contact from './components/contact/Contact';
-
-
-
-
+import Footer from './components/Footer/footer';
 
 function App() {
   const mystorage = window.localStorage
@@ -35,6 +32,7 @@ function App() {
         <Portfolio/>
         <Quotes/>
         <Contact/>
+        <Footer/>
       </div>
       </SwitchContext.Provider>
   )
