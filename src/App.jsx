@@ -8,6 +8,8 @@ import Skill from './components/skills/Skill';
 import Expertise from './components/expertise/expertise';
 import Qualification from './components/qualifications/qualification';
 import Portfolio from './components/portfolio/Portfolio';
+import Quotes from './components/quotes/Quotes';
+import Contact from './components/contact/Contact';
 
 
 
@@ -31,6 +33,8 @@ function App() {
         <Expertise/>
         <Qualification/>
         <Portfolio/>
+        <Quotes/>
+        <Contact/>
       </div>
       </SwitchContext.Provider>
   )
