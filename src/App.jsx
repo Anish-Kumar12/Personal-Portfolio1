@@ -6,6 +6,8 @@ import Nav from './components/navbar/navbar'
 import About from './components/about/About';
 import Skill from './components/skills/Skill';
 import Expertise from './components/expertise/expertise';
+import Qualification from './components/qualifications/qualification';
+
 
 
 
@@ -26,6 +28,7 @@ function App() {
         <About/>
         <Skill/>
         <Expertise/>
+        <Qualification/>
       </div>
       </SwitchContext.Provider>
   )
