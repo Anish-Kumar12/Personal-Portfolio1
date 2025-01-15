@@ -11,6 +11,8 @@ import Portfolio from './components/portfolio/Portfolio';
 import Quotes from './components/quotes/Quotes';
 import Contact from './components/contact/Contact';
 import Footer from './components/Footer/footer';
+import Switch from './components/themeSwitch/Switch';
+
 
 function App() {
   const mystorage = window.localStorage
@@ -33,6 +35,7 @@ function App() {
         <Quotes/>
         <Contact/>
         <Footer/>
+        <Switch/>
       </div>
       </SwitchContext.Provider>
   )
