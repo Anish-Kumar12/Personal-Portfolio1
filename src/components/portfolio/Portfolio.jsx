@@ -179,29 +179,14 @@ const Portfolio = () => {
           })}
       </div>
       <div className="btn-row">
-        <button
-          onClick={(e) => {
-            e.preventDefault();
-            if (count === 6) {
-              setCount(data.length);
-            } else {
-              setCount(6);
-            }
-          }}
-          type="button"
+      <a
+          href="https://github.com/Anish-Kumar12"
+          target="_blank"
+          rel="noopener noreferrer"
           className="btn btn-dark-variant"
         >
-          See{" "}
-          {count === 6 ? (
-            <>
-              More <BsArrowDownCircle className="moreless" />
-            </>
-          ) : (
-            <>
-              Less <BsArrowUpCircle className="moreless" />
-            </>
-          )}
-        </button>
+          See More <BsArrowDownCircle className="moreless" />
+        </a>
       </div>
     </section>
   );
