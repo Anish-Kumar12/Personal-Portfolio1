@@ -45,7 +45,7 @@ const data = [
     title: "PixieCloud",
     github: "https://github.com/Anish-Kumar12/PixieCloud",
     demo: "https://pixie-cloud.vercel.app",
-    tags: ["Nextjs", "Tailwind CSS", "DaisyUI", "Clerk", "Prisma", "NeonDB"],
+    tags: ["Nextjs", "Tailwind CSS", "DaisyUI", "Clerk", "Prisma", "NeonDB","Typescript"],
     desc: "A Next.js app for managing multimedia with user authentication, media uploads to Cloudinary, and a social media image creator for transforming images into various formats.",
   },
   {
