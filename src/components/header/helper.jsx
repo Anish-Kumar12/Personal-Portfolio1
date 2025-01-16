@@ -4,7 +4,7 @@ const Helper = () => {
   return (
     <div className='cta'>
       <a
-        href='https://drive.google.com/file/d/1-5wV_ocemnR3o5XwmfRHCMkHj6tfF9tL/view?usp=sharing'
+        href='https://drive.google.com/file/d/10d-IUxliPqjxiP4b5ALpXRTGPXJwri_x/view?usp=sharing'
         target='_blank'
         rel='noreferrer'
         className='btn cta-icon dl'
