@@ -20,6 +20,9 @@ import IMG5webp from "../../assets/img5.webp";
 import IMG6 from "../../assets/employee-turnover.png";
 import IMG6webp from "../../assets/employee-turnover.webp";
 
+import img7 from "../../assets/img7.png";
+import img7web from "../../assets/img7web.webp"
+
 const data = [
   {
     id: 6,
@@ -50,16 +53,6 @@ const data = [
   },
   {
     id: 4,
-    image: IMG4,
-    imageWebp: IMG4webp,
-    title: "Portfolio Website",
-    github: "https://github.com/Anish-Kumar12/Personal-Portfolio1",
-    demo: "https://personal-portfolio1-seven.vercel.app",
-    tags: ["React", "React Icons", "React Hooks"],
-    desc: "This is my personal portfolio website. It is a single page application with dark mode and light mode support.",
-  },
-  {
-    id: 3,
     image: IMG3,
     imageWebp: IMG3webp,
     title: "BlogVault",
@@ -77,7 +70,7 @@ const data = [
     desc: "This is a blog application with a React frontend and Express backend. Users can create, read, update, and delete blog posts and comments, with features like user authentication, image uploads, and real-time data fetching.",
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     imageWebp: IMG2webp,
     title: "Uber - Comprehensive Ride-Sharing Application",
@@ -96,7 +89,7 @@ const data = [
     desc: "A ride-sharing app connecting users with captains, featuring real-time tracking and Google Maps integration. Built with React, Node.js, and MongoDB for a seamless user experience.",
   },
   {
-    id: 1,
+    id: 2,
     image: IMG1,
     imageWebp: IMG1webp,
     title: "QuickCart - Seamless Online Grocery Shopping Experience",
@@ -114,6 +107,23 @@ const data = [
     ],
     desc: "QuickCart is a comprehensive e-commerce platform that allows users to seamlessly shop online, manage their orders, and track deliveries. It also provides businesses with tools to manage products, categories, and customer interactions efficiently.",
   },
+  {
+    id: 1,
+    image: img7,
+    imageWebp: img7web,
+    title: "InterVize - Real-Time Technical Interview Platform",
+    github: "https://github.com/Anish-Kumar12/InterVize-",
+    demo: "https://inter-vize.vercel.app/",
+    tags: [
+      "Next.js",
+      "Convex",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Clerk",
+      "Stream Video SDK"
+    ],
+    desc: "InterVize is a real-time technical interview platform that integrates live video conferencing, real-time coding assessments, and structured feedback to streamline the hiring process. It provides interviewers with powerful tools to evaluate candidates effectively.",
+}
 ];
 
 const Portfolio = () => {
